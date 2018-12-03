@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C54463C49530077D42B14AE /* Pods_GenderNeutralRestroomsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E6CA28D070EE6D9CA85C54 /* Pods_GenderNeutralRestroomsUITests.framework */; };
+		4D6EAF6921B4C11D006B1FF3 /* ListViewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6EAF6821B4C11D006B1FF3 /* ListViewCellTableViewCell.swift */; };
 		4D7B4A7F21B3CB5800E065E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4A7E21B3CB5800E065E2 /* AppDelegate.swift */; };
 		4D7B4A8121B3CB5800E065E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4A8021B3CB5800E065E2 /* ViewController.swift */; };
 		4D7B4A8421B3CB5800E065E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7B4A8221B3CB5800E065E2 /* Main.storyboard */; };
@@ -14,6 +16,10 @@
 		4D7B4A8921B3CB5B00E065E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7B4A8721B3CB5B00E065E2 /* LaunchScreen.storyboard */; };
 		4D7B4A9421B3CB5B00E065E2 /* GenderNeutralRestroomsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4A9321B3CB5B00E065E2 /* GenderNeutralRestroomsTests.swift */; };
 		4D7B4A9F21B3CB5C00E065E2 /* GenderNeutralRestroomsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4A9E21B3CB5C00E065E2 /* GenderNeutralRestroomsUITests.swift */; };
+		4D7B4AAD21B3CBAC00E065E2 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4AAC21B3CBAC00E065E2 /* mapViewController.swift */; };
+		4D7B4AAF21B3CBDE00E065E2 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4AAE21B3CBDE00E065E2 /* ListViewController.swift */; };
+		63722D67E35A69574CE67265 /* Pods_GenderNeutralRestroomsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02BFA30AEF0837D155A988A6 /* Pods_GenderNeutralRestroomsTests.framework */; };
+		C8AA4C10DA8931999D14B71F /* Pods_GenderNeutralRestrooms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB787735507ECB453204387 /* Pods_GenderNeutralRestrooms.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02BFA30AEF0837D155A988A6 /* Pods_GenderNeutralRestroomsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenderNeutralRestroomsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4677924A05301544247AE7 /* Pods-GenderNeutralRestroomsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenderNeutralRestroomsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GenderNeutralRestroomsTests/Pods-GenderNeutralRestroomsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		42AD9A4E6BB084CDD5CF86FD /* Pods-GenderNeutralRestrooms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenderNeutralRestrooms.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GenderNeutralRestrooms/Pods-GenderNeutralRestrooms.debug.xcconfig"; sourceTree = "<group>"; };
+		4D6EAF6821B4C11D006B1FF3 /* ListViewCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCellTableViewCell.swift; sourceTree = "<group>"; };
 		4D7B4A7B21B3CB5800E065E2 /* GenderNeutralRestrooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenderNeutralRestrooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D7B4A7E21B3CB5800E065E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D7B4A8021B3CB5800E065E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,14 @@
 		4D7B4A9A21B3CB5C00E065E2 /* GenderNeutralRestroomsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenderNeutralRestroomsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D7B4A9E21B3CB5C00E065E2 /* GenderNeutralRestroomsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderNeutralRestroomsUITests.swift; sourceTree = "<group>"; };
 		4D7B4AA021B3CB5C00E065E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D7B4AAC21B3CBAC00E065E2 /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		4D7B4AAE21B3CBDE00E065E2 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		5A69DD333D1C84906CBAE9F2 /* Pods-GenderNeutralRestroomsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenderNeutralRestroomsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GenderNeutralRestroomsUITests/Pods-GenderNeutralRestroomsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		60E6CA28D070EE6D9CA85C54 /* Pods_GenderNeutralRestroomsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenderNeutralRestroomsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70BC2B5731AACCED291F7392 /* Pods-GenderNeutralRestroomsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenderNeutralRestroomsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GenderNeutralRestroomsTests/Pods-GenderNeutralRestroomsTests.release.xcconfig"; sourceTree = "<group>"; };
+		94AB609A97156E6A831A346A /* Pods-GenderNeutralRestroomsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenderNeutralRestroomsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GenderNeutralRestroomsUITests/Pods-GenderNeutralRestroomsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3FAF93094CC929E1AAA05AE /* Pods-GenderNeutralRestrooms.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenderNeutralRestrooms.release.xcconfig"; path = "Pods/Target Support Files/Pods-GenderNeutralRestrooms/Pods-GenderNeutralRestrooms.release.xcconfig"; sourceTree = "<group>"; };
+		CCB787735507ECB453204387 /* Pods_GenderNeutralRestrooms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenderNeutralRestrooms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8AA4C10DA8931999D14B71F /* Pods_GenderNeutralRestrooms.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63722D67E35A69574CE67265 /* Pods_GenderNeutralRestroomsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C54463C49530077D42B14AE /* Pods_GenderNeutralRestroomsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		022A304A74CEED8E5BF58FA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCB787735507ECB453204387 /* Pods_GenderNeutralRestrooms.framework */,
+				02BFA30AEF0837D155A988A6 /* Pods_GenderNeutralRestroomsTests.framework */,
+				60E6CA28D070EE6D9CA85C54 /* Pods_GenderNeutralRestroomsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E82F72201FD87006E5821F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42AD9A4E6BB084CDD5CF86FD /* Pods-GenderNeutralRestrooms.debug.xcconfig */,
+				A3FAF93094CC929E1AAA05AE /* Pods-GenderNeutralRestrooms.release.xcconfig */,
+				2B4677924A05301544247AE7 /* Pods-GenderNeutralRestroomsTests.debug.xcconfig */,
+				70BC2B5731AACCED291F7392 /* Pods-GenderNeutralRestroomsTests.release.xcconfig */,
+				94AB609A97156E6A831A346A /* Pods-GenderNeutralRestroomsUITests.debug.xcconfig */,
+				5A69DD333D1C84906CBAE9F2 /* Pods-GenderNeutralRestroomsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4D7B4A7221B3CB5800E065E2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +125,8 @@
 				4D7B4A9221B3CB5B00E065E2 /* GenderNeutralRestroomsTests */,
 				4D7B4A9D21B3CB5C00E065E2 /* GenderNeutralRestroomsUITests */,
 				4D7B4A7C21B3CB5800E065E2 /* Products */,
+				0E82F72201FD87006E5821F8 /* Pods */,
+				022A304A74CEED8E5BF58FA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +143,15 @@
 		4D7B4A7D21B3CB5800E065E2 /* GenderNeutralRestrooms */ = {
 			isa = PBXGroup;
 			children = (
+				4D7B4AAC21B3CBAC00E065E2 /* mapViewController.swift */,
 				4D7B4A7E21B3CB5800E065E2 /* AppDelegate.swift */,
 				4D7B4A8021B3CB5800E065E2 /* ViewController.swift */,
 				4D7B4A8221B3CB5800E065E2 /* Main.storyboard */,
 				4D7B4A8521B3CB5B00E065E2 /* Assets.xcassets */,
 				4D7B4A8721B3CB5B00E065E2 /* LaunchScreen.storyboard */,
 				4D7B4A8A21B3CB5B00E065E2 /* Info.plist */,
+				4D7B4AAE21B3CBDE00E065E2 /* ListViewController.swift */,
+				4D6EAF6821B4C11D006B1FF3 /* ListViewCellTableViewCell.swift */,
 			);
 			path = GenderNeutralRestrooms;
 			sourceTree = "<group>";
@@ -132,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D7B4AA321B3CB5C00E065E2 /* Build configuration list for PBXNativeTarget "GenderNeutralRestrooms" */;
 			buildPhases = (
+				84B3F60B43B8784A021939AF /* [CP] Check Pods Manifest.lock */,
 				4D7B4A7721B3CB5800E065E2 /* Sources */,
 				4D7B4A7821B3CB5800E065E2 /* Frameworks */,
 				4D7B4A7921B3CB5800E065E2 /* Resources */,
+				7DD395D31BCE760ECCDACF65 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D7B4AA621B3CB5C00E065E2 /* Build configuration list for PBXNativeTarget "GenderNeutralRestroomsTests" */;
 			buildPhases = (
+				CCE64C922790A25368AF5101 /* [CP] Check Pods Manifest.lock */,
 				4D7B4A8B21B3CB5B00E065E2 /* Sources */,
 				4D7B4A8C21B3CB5B00E065E2 /* Frameworks */,
 				4D7B4A8D21B3CB5B00E065E2 /* Resources */,
@@ -167,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D7B4AA921B3CB5C00E065E2 /* Build configuration list for PBXNativeTarget "GenderNeutralRestroomsUITests" */;
 			buildPhases = (
+				C89438ED4771969120CD6A02 /* [CP] Check Pods Manifest.lock */,
 				4D7B4A9621B3CB5C00E065E2 /* Sources */,
 				4D7B4A9721B3CB5C00E065E2 /* Frameworks */,
 				4D7B4A9821B3CB5C00E065E2 /* Resources */,
@@ -251,12 +304,112 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7DD395D31BCE760ECCDACF65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GenderNeutralRestrooms/Pods-GenderNeutralRestrooms-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/CDYelpFusionKit/CDYelpFusionKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CDYelpFusionKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GenderNeutralRestrooms/Pods-GenderNeutralRestrooms-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84B3F60B43B8784A021939AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GenderNeutralRestrooms-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C89438ED4771969120CD6A02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GenderNeutralRestroomsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCE64C922790A25368AF5101 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GenderNeutralRestroomsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D7B4A7721B3CB5800E065E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D7B4AAD21B3CBAC00E065E2 /* mapViewController.swift in Sources */,
 				4D7B4A8121B3CB5800E065E2 /* ViewController.swift in Sources */,
+				4D6EAF6921B4C11D006B1FF3 /* ListViewCellTableViewCell.swift in Sources */,
+				4D7B4AAF21B3CBDE00E065E2 /* ListViewController.swift in Sources */,
 				4D7B4A7F21B3CB5800E065E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,9 +583,11 @@
 		};
 		4D7B4AA421B3CB5C00E065E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42AD9A4E6BB084CDD5CF86FD /* Pods-GenderNeutralRestrooms.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQ2A64KX43;
 				INFOPLIST_FILE = GenderNeutralRestrooms/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +602,11 @@
 		};
 		4D7B4AA521B3CB5C00E065E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3FAF93094CC929E1AAA05AE /* Pods-GenderNeutralRestrooms.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQ2A64KX43;
 				INFOPLIST_FILE = GenderNeutralRestrooms/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,6 +621,7 @@
 		};
 		4D7B4AA721B3CB5C00E065E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B4677924A05301544247AE7 /* Pods-GenderNeutralRestroomsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +642,7 @@
 		};
 		4D7B4AA821B3CB5C00E065E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70BC2B5731AACCED291F7392 /* Pods-GenderNeutralRestroomsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +663,7 @@
 		};
 		4D7B4AAA21B3CB5C00E065E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94AB609A97156E6A831A346A /* Pods-GenderNeutralRestroomsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +683,7 @@
 		};
 		4D7B4AAB21B3CB5C00E065E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A69DD333D1C84906CBAE9F2 /* Pods-GenderNeutralRestroomsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
