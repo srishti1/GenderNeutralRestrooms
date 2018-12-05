@@ -7,13 +7,14 @@
 //
 
 import UIKit
+import Cosmos
 
 class ListViewCellTableViewCell: UITableViewCell {
     @IBOutlet weak var CellImage:UIImageView!
     @IBOutlet weak var Name:UILabel!
     @IBOutlet weak var Address:UILabel!
-    @IBOutlet weak var Miles:UILabel!
     
+    @IBOutlet weak var cosmosView: CosmosView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

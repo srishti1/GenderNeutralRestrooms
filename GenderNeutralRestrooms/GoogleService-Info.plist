@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>1032534329339-8f6r68nq6eurg7elmg3e0motuoqi78i7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1032534329339-8f6r68nq6eurg7elmg3e0motuoqi78i7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCcUW5xQWIj4ZxgTpy_jpgeeQrydHqPICk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1032534329339</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.srishtim.GenderNeutralRestrooms</string>
+	<key>PROJECT_ID</key>
+	<string>genderneutralrestrooms-2f2db</string>
+	<key>STORAGE_BUCKET</key>
+	<string>genderneutralrestrooms-2f2db.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1032534329339:ios:a3be8b33bdf2d599</string>
+	<key>DATABASE_URL</key>
+	<string>https://genderneutralrestrooms-2f2db.firebaseio.com</string>
+</dict>
+</plist>
