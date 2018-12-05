@@ -12,10 +12,10 @@ import CoreLocation
 import Nuke
 import Cosmos
 import ChameleonFramework
-//import FirebaseDatabase
+import FirebaseDatabase
 
 class ListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate , CLLocationManagerDelegate{
-    //let ref = Database.database().reference()
+    var ref: DatabaseReference? = nil
     let yelpAPIClient = CDYelpAPIClient(apiKey: "GmuBVXSGq4ts8A_LEkusZgNtgDep7QwQD3Qilq24VcBrOQV9v85LqqFHoprXvNBdfhfoVrXN-8XMp3hX8Ju8g-p-bu9h1HJCoojJ2urtkfGlWKFIuaI-xpS1b3MDXHYx")
     @IBOutlet weak var ListTable:UITableView!
     var num:Int? = nil;
@@ -34,6 +34,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        ref = Database.database().reference()
         ListTable.delegate = self
         ListTable.dataSource = self
         results = getResults()
@@ -64,13 +65,20 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         cell.Name.text = result.name
         cell.Address.text = result.location?.displayAddress?.joined(separator: ", ")//result.location?.addressOne
         cell.backgroundColor = generateRandomPastelColor(withMixedColor: .white )
+        
 //        let rect = ListTable.rectForRow(at: indexPath)
 //        let rectInScreen = ListTable.convert(rect, to: ListTable.superview)
-//        cell.backgroundColor = UIColor(gradientStyle: .topToBottom,
-//                                       withFrame: rectInScreen,
-//            andColors: [.flatWhite, .flatWhite,
-//                                                   .flatPink])
-        cell.cosmosView.rating = 4
+        cell.backgroundColor = UIColor(gradientStyle: .topToBottom,
+                                       withFrame: cell.frame,
+                                       andColors: [.flatYellow, .flatYellowDark, .flatOrange])
+        
+//        
+//        ref?.child("Location").child(result.name!).child("Rating").observeSingleEvent(of: .value, with: { (snapshot) in
+//            cell.cosmosView.rating = snapshot.value ?? 0
+//        }
+        
+        
+        //cell.cosmosView.rating = 4
         cell.cosmosView.settings.updateOnTouch = false
         return cell
     }

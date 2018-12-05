@@ -9,11 +9,11 @@
 import UIKit
 import MapKit
 import Cosmos
-//import FirebaseDatabase
+import FirebaseDatabase
 
 class DetailsViewController: UIViewController,MKMapViewDelegate {
-    //let ref = Database.database().reference()
-
+    var ref: DatabaseReference!
+    
     @IBOutlet weak var DetailImage: UIImageView!
     @IBOutlet weak var DetailName: UILabel!
     @IBOutlet weak var DetailMapView: MKMapView!
@@ -32,16 +32,18 @@ class DetailsViewController: UIViewController,MKMapViewDelegate {
         DetailName.text = name
         DetailImage.image = image
     }
-//    override func viewWillDisappear(_ animated: Bool) {
-//        super.viewWillDisappear(true)
-//        if let finalRating = Rating{
-//            ref.child("Location/Rating").setValue(finalRating)
-//            ref.child("Location/Name").setValue(name)
-//        }
-//    }
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(true)
+        if let finalRating = Rating{
+//            ref?.child("Location/SingleLocation/Rating").setValue(finalRating)
+//          ref?.child("Location/SingleLocation/Name").setValue(name)
+        ref.child("Location").child(name).child("Rating").setValue(finalRating)
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        ref = Database.database().reference()
         let viewRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: latitude ?? 34.01925306236066, longitude: longitude ?? -118.28152770275595), latitudinalMeters: 2000, longitudinalMeters: 2000)
         DetailMapView.setRegion(viewRegion, animated: false)
         addAnnotation()
