@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "95FFA9F2B4FAE99CE551A38D3D35D4E6"
+               BlueprintIdentifier = "99A690F274AD8EF357633112A0E01CA5"
                BuildableName = "Pods_GenderNeutralRestrooms.framework"
                BlueprintName = "Pods-GenderNeutralRestrooms"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "95FFA9F2B4FAE99CE551A38D3D35D4E6"
+            BlueprintIdentifier = "99A690F274AD8EF357633112A0E01CA5"
             BuildableName = "Pods_GenderNeutralRestrooms.framework"
             BlueprintName = "Pods-GenderNeutralRestrooms"
             ReferencedContainer = "container:Pods.xcodeproj">

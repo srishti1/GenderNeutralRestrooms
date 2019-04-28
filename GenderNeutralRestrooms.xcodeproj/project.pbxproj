@@ -8,11 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4C54463C49530077D42B14AE /* Pods_GenderNeutralRestroomsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E6CA28D070EE6D9CA85C54 /* Pods_GenderNeutralRestroomsUITests.framework */; };
-		4D4574AA21B631830066ABE4 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4574A921B631830066ABE4 /* Annotation.swift */; };
 		4D4574AE21B635E00066ABE4 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4574AD21B635E00066ABE4 /* DetailsViewController.swift */; };
-		4D6EAF6921B4C11D006B1FF3 /* ListViewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6EAF6821B4C11D006B1FF3 /* ListViewCellTableViewCell.swift */; };
+		4D48B50E21BA51C300789D2F /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D48B50D21BA51C300789D2F /* Annotation.swift */; };
+		4D48B51021BA523000789D2F /* ListViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D48B50F21BA523000789D2F /* ListViewTableViewCell.swift */; };
 		4D7B4A7F21B3CB5800E065E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4A7E21B3CB5800E065E2 /* AppDelegate.swift */; };
-		4D7B4A8121B3CB5800E065E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4A8021B3CB5800E065E2 /* ViewController.swift */; };
 		4D7B4A8421B3CB5800E065E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7B4A8221B3CB5800E065E2 /* Main.storyboard */; };
 		4D7B4A8621B3CB5B00E065E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7B4A8521B3CB5B00E065E2 /* Assets.xcassets */; };
 		4D7B4A8921B3CB5B00E065E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7B4A8721B3CB5B00E065E2 /* LaunchScreen.storyboard */; };
@@ -46,12 +45,11 @@
 		02BFA30AEF0837D155A988A6 /* Pods_GenderNeutralRestroomsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenderNeutralRestroomsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4677924A05301544247AE7 /* Pods-GenderNeutralRestroomsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenderNeutralRestroomsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GenderNeutralRestroomsTests/Pods-GenderNeutralRestroomsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		42AD9A4E6BB084CDD5CF86FD /* Pods-GenderNeutralRestrooms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenderNeutralRestrooms.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GenderNeutralRestrooms/Pods-GenderNeutralRestrooms.debug.xcconfig"; sourceTree = "<group>"; };
-		4D4574A921B631830066ABE4 /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
 		4D4574AD21B635E00066ABE4 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
-		4D6EAF6821B4C11D006B1FF3 /* ListViewCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCellTableViewCell.swift; sourceTree = "<group>"; };
+		4D48B50D21BA51C300789D2F /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
+		4D48B50F21BA523000789D2F /* ListViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewTableViewCell.swift; sourceTree = "<group>"; };
 		4D7B4A7B21B3CB5800E065E2 /* GenderNeutralRestrooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenderNeutralRestrooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D7B4A7E21B3CB5800E065E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D7B4A8021B3CB5800E065E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D7B4A8321B3CB5800E065E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D7B4A8521B3CB5B00E065E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D7B4A8821B3CB5B00E065E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -149,18 +147,12 @@
 		4D7B4A7D21B3CB5800E065E2 /* GenderNeutralRestrooms */ = {
 			isa = PBXGroup;
 			children = (
+				4DBEA20121BA4FEE007D07E7 /* Model */,
+				4DBEA1FA21BA4D38007D07E7 /* SupportingFiles */,
+				4DBEA1F921BA4D0C007D07E7 /* View */,
 				4DBD738321B77507000F7E0F /* GoogleService-Info.plist */,
-				4D7B4AAC21B3CBAC00E065E2 /* mapViewController.swift */,
-				4D7B4A7E21B3CB5800E065E2 /* AppDelegate.swift */,
-				4D7B4A8021B3CB5800E065E2 /* ViewController.swift */,
-				4D7B4A8221B3CB5800E065E2 /* Main.storyboard */,
-				4D7B4A8521B3CB5B00E065E2 /* Assets.xcassets */,
-				4D7B4A8721B3CB5B00E065E2 /* LaunchScreen.storyboard */,
 				4D7B4A8A21B3CB5B00E065E2 /* Info.plist */,
-				4D7B4AAE21B3CBDE00E065E2 /* ListViewController.swift */,
-				4D6EAF6821B4C11D006B1FF3 /* ListViewCellTableViewCell.swift */,
-				4D4574A921B631830066ABE4 /* Annotation.swift */,
-				4D4574AD21B635E00066ABE4 /* DetailsViewController.swift */,
+				4DBEA1F121BA4BA6007D07E7 /* ViewControllers */,
 			);
 			path = GenderNeutralRestrooms;
 			sourceTree = "<group>";
@@ -183,6 +175,43 @@
 			path = GenderNeutralRestroomsUITests;
 			sourceTree = "<group>";
 		};
+		4DBEA1F121BA4BA6007D07E7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D4574AD21B635E00066ABE4 /* DetailsViewController.swift */,
+				4D7B4AAE21B3CBDE00E065E2 /* ListViewController.swift */,
+				4D7B4AAC21B3CBAC00E065E2 /* mapViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4DBEA1F921BA4D0C007D07E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D7B4A8721B3CB5B00E065E2 /* LaunchScreen.storyboard */,
+				4D7B4A8221B3CB5800E065E2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4DBEA1FA21BA4D38007D07E7 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4D7B4A8521B3CB5B00E065E2 /* Assets.xcassets */,
+				4D7B4A7E21B3CB5800E065E2 /* AppDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		4DBEA20121BA4FEE007D07E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D48B50D21BA51C300789D2F /* Annotation.swift */,
+				4D48B50F21BA523000789D2F /* ListViewTableViewCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -195,6 +224,7 @@
 				4D7B4A7821B3CB5800E065E2 /* Frameworks */,
 				4D7B4A7921B3CB5800E065E2 /* Resources */,
 				7DD395D31BCE760ECCDACF65 /* [CP] Embed Pods Frameworks */,
+				3546193216FE14D744713F0B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +243,8 @@
 				4D7B4A8B21B3CB5B00E065E2 /* Sources */,
 				4D7B4A8C21B3CB5B00E065E2 /* Frameworks */,
 				4D7B4A8D21B3CB5B00E065E2 /* Resources */,
+				050884BC26D2317F0C095806 /* [CP] Embed Pods Frameworks */,
+				771AA285DF33A3CF09236AF4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +264,8 @@
 				4D7B4A9621B3CB5C00E065E2 /* Sources */,
 				4D7B4A9721B3CB5C00E065E2 /* Frameworks */,
 				4D7B4A9821B3CB5C00E065E2 /* Resources */,
+				F0DF4936B8A9CE01C470B0F4 /* [CP] Embed Pods Frameworks */,
+				02A2C9F0BE8192904F2C59F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -315,6 +349,82 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		02A2C9F0BE8192904F2C59F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GenderNeutralRestroomsUITests/Pods-GenderNeutralRestroomsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		050884BC26D2317F0C095806 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GenderNeutralRestroomsTests/Pods-GenderNeutralRestroomsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3546193216FE14D744713F0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GenderNeutralRestrooms/Pods-GenderNeutralRestrooms-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		771AA285DF33A3CF09236AF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GenderNeutralRestroomsTests/Pods-GenderNeutralRestroomsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7DD395D31BCE760ECCDACF65 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -327,8 +437,6 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/CDYelpFusionKit/CDYelpFusionKit.framework",
-				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
-				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
@@ -342,8 +450,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CDYelpFusionKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nuke.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
@@ -421,6 +527,25 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F0DF4936B8A9CE01C470B0F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GenderNeutralRestroomsUITests/Pods-GenderNeutralRestroomsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -428,12 +553,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D48B51021BA523000789D2F /* ListViewTableViewCell.swift in Sources */,
 				4D7B4AAD21B3CBAC00E065E2 /* mapViewController.swift in Sources */,
-				4D7B4A8121B3CB5800E065E2 /* ViewController.swift in Sources */,
-				4D6EAF6921B4C11D006B1FF3 /* ListViewCellTableViewCell.swift in Sources */,
+				4D48B50E21BA51C300789D2F /* Annotation.swift in Sources */,
 				4D7B4AAF21B3CBDE00E065E2 /* ListViewController.swift in Sources */,
 				4D4574AE21B635E00066ABE4 /* DetailsViewController.swift in Sources */,
-				4D4574AA21B631830066ABE4 /* Annotation.swift in Sources */,
 				4D7B4A7F21B3CB5800E065E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

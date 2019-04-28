@@ -8,10 +8,8 @@ target 'GenderNeutralRestrooms' do
   # Pods for GenderNeutralRestrooms
 pod 'CDYelpFusionKit', '1.5.0'
 pod 'Nuke', '~> 7.0'
-pod 'Cosmos', '~> 17.0'
 pod 'Firebase/Core'
 pod 'Firebase/Database'
-pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
 
   target 'GenderNeutralRestroomsTests' do
     inherit! :search_paths
